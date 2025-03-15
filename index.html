@@ -36,15 +36,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <nav class="main-nav">
+    <nav class="main-nav" aria-label="Navigazione principale">
         <div class="nav-container">
             <a href="#home" class="logo">Cantieri Erranti</a>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Chi Siamo</a></li>
-                <li><a href="#services">Cosa Facciamo</a></li>
-                <li><a href="#team">Il Team</a></li>
-                <li><a href="#contact">Contatti</a></li>
+            <ul class="nav-links" role="menubar">
+                <li role="none"><a href="#home" role="menuitem" aria-current="page">Home</a></li>
+                <li role="none"><a href="#about" role="menuitem">Chi Siamo</a></li>
+                <li role="none"><a href="#services" role="menuitem">Cosa Facciamo</a></li>
+                <li role="none"><a href="#team" role="menuitem">Il Team</a></li>
+                <li role="none"><a href="#contact" role="menuitem">Contatti</a></li>
             </ul>
         </div>
     </nav>
@@ -115,6 +115,17 @@
                     </aside>
                     <footer class="service-footer">
                         <img src="img/logo-faccende-arstistiche.jpg" alt="Logo Faccende Artistiche" class="service-logo-bottom">
+                        <div class="service-social-links">
+                            <a href="https://www.facebook.com/faccendeartistiche" class="social-icon" aria-label="Seguici su Facebook">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.instagram.com/faccendeartistiche" class="social-icon" aria-label="Seguici su Instagram">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/cantierierranti" class="social-icon" aria-label="Seguici su LinkedIn">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </footer>
                 </section>
 
@@ -148,6 +159,17 @@
                     </aside>
                     <footer class="service-footer">
                         <img src="img/logo-play-improv.jpg" alt="Logo Play Improv" class="service-logo-bottom">
+                        <div class="service-social-links">
+                            <a href="https://www.facebook.com/playimprov" class="social-icon" aria-label="Seguici su Facebook">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.instagram.com/playimprov" class="social-icon" aria-label="Seguici su Instagram">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/cantierierranti" class="social-icon" aria-label="Seguici su LinkedIn">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </footer>
                 </section>
 
@@ -164,6 +186,17 @@
                     </figure>
                     <footer class="service-footer">
                         <img src="img/logo-impact.jpg" alt="Logo IMPACT" class="service-logo-bottom">
+                        <div class="service-social-links">
+                            <a href="https://www.facebook.com/playimprov" class="social-icon" aria-label="Seguici su Facebook">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.instagram.com/playimprov" class="social-icon" aria-label="Seguici su Instagram">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/cantierierranti" class="social-icon" aria-label="Seguici su LinkedIn">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </footer>
                 </section>
 
@@ -186,6 +219,17 @@
                     </figure>
                     <footer class="service-footer">
                         <img src="img/logo-corporate-training.jpg" alt="Logo Corporate Training" class="service-logo-bottom">
+                        <div class="service-social-links">
+                            <a href="https://www.facebook.com/playimprov" class="social-icon" aria-label="Seguici su Facebook">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.instagram.com/playimprov" class="social-icon" aria-label="Seguici su Instagram">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/cantierierranti" class="social-icon" aria-label="Seguici su LinkedIn">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </footer>
                 </section>
             </div>
@@ -282,19 +326,14 @@
                     </address>
                 </section>
             </div>
-            <footer class="social-links">
-                <a href="#" class="social-icon">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#" class="social-icon">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#" class="social-icon">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            </footer>
         </article>
     </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Cantieri Erranti APS ETS. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
 
     <script src="scripts.js"></script>
 </body>
